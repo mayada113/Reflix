@@ -1,0 +1,71 @@
+.movies{
+    padding-top: 10rem;
+    display: grid;
+    grid-gap: 3rem;
+    justify-content: center;
+    grid-template-columns: repeat(5 , 1fr);
+
+}
+
+.rented{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-gap: 2rem;
+    margin-left: 90px;
+
+}
+
+.catalog{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    left: 80px;
+}
+
+#rented{
+    color: wheat;
+    position: relative;
+    left: 20px;
+}
+
+#catalogLabel{
+    color: wheat;
+    display: grid;
+    justify-content: center;
+}
+
+.delete-movie{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.plus {
+    position:relative;
+    left:100px;
+    top:100px;
+    border: 1px dotted white;
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    box-sizing: border-box;
+    transform: scale(11);
+  }
+  
+  .plus:hover {
+    transform: scale(10);
+  }
+
+  #remove{
+      cursor: pointer;
+  }
+
+  #add{
+    cursor: pointer;
+  }

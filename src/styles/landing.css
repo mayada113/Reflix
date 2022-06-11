@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+#home-title{
+    text-align: center;
+    margin-top:5vh;
+    color: white;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+#users{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 150px;
+    grid-template-areas: 
+    "u1 u2 u3" 
+    "u4 u5 u6"
+}
+
+#users > div{
+    cursor: pointer;
+    box-shadow: 3px 4px 5px #888888;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#users > div:active{
+    border: inset
+}
+
+.user{
+    line-height: 150px;
+    font-size: 2em;
+    color: #ecf0f1;
+    text-shadow: -1px -1px 0 #2c3e50, 1px -1px 0 #2c3e50, -1px 1px 0 #2c3e50, 1px 1px 0 #2c3e50;
+}
+
+.blue{
+    grid-area: u1;
+    background-color: rgb(30, 210, 241);
+}
+
+.red{
+    grid-area: u2;
+    background-color: rgb(177, 38, 38);
+}
+
+.green{
+    grid-area: u3;
+    background-color: rgb(3, 71, 3);
+}
+
+.yellow{
+    grid-area: u4;
+    background-color: rgb(228, 225, 58);
+}
+
+.pink{
+    grid-area: u5;
+    background-color: rgb(204, 101, 207);
+}

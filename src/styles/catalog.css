@@ -1,0 +1,40 @@
+#u-input{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-gap: 5px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+input{
+    border-right: none;
+    color: #2c3e50;
+    vertical-align: bottom;
+    font-size:1.3em; 
+    padding:.5em;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+#button{
+    background-color: #3498db;
+    border: 2px #010008 inset;
+    cursor: pointer;
+    color: #ecf0f1;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+#button:active{
+    background-color: #2980b9
+}
+
+#label{
+  position: relative;
+  left: 70px;
+}
+
+
